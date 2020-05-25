@@ -95,12 +95,12 @@ function fnRegBtnQeydiyyat() {
         email: user.email
     };
     localStorage.setItem("login", JSON.stringify(logins))
-    window.open("index_UserProfil.html", "_self")
+    window.open("UserProfil.html", "_self")
 
 };
 
 
 regBtnDaxilOl.addEventListener("click", function() {
-    window.open("index_Welcome.html", "_self")
+    window.open("index.html", "_self")
 
 });

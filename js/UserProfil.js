@@ -28,7 +28,7 @@ userHesabdanCix.addEventListener("click", fnUserHesabdanCix)
 
 function fnUserHesabdanCix() {
     localStorage.removeItem("login")
-    window.open("index_Welcome.html", "_self");
+    window.open("index.html", "_self");
 };
 
 RedakteEt.addEventListener("click", fnRedakteEt);

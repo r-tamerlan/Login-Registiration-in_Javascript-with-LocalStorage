@@ -40,7 +40,7 @@ function fnGet() {
     };
     if (loginVar) {
         localStorage.setItem("login", JSON.stringify(logins))
-        window.open("index_UserProfil.html", "_self")
+        window.open("UserProfil.html", "_self")
     } else {
 
         errorDiv.style.display = "block";
@@ -53,5 +53,5 @@ function fnGet() {
 
 
 welcomeQeydiyyat.addEventListener("click", function() {
-    window.open("index_Registration.html", "_self")
+    window.open("Registration.html", "_self")
 });
